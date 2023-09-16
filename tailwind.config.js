@@ -17,6 +17,7 @@ export default {
       "danger-color": "#E74040",
       "second-text-color": "#737373",
       "primary-color": "#23A6F0",
+      "primary-text-color": "#23A6F0"
     },
   },
   plugins: [],

@@ -1,19 +1,15 @@
 import { FC } from "react";
 import { Heading2 } from "../../components/Text/Heading";
 import { Paragraph } from "../../components/Text/Paragraph";
-import {
-  FacebookLogo,
-  InstagramLogo,
-  LinkedinLogo,
-  TwitterLogo,
-} from "phosphor-react";
+
+import { SocialMedia } from "../../components/SocialMedia";
 
 const Example03: FC = () => {
   return (
     <main className="w-[100vw] relative h-[100vh] bg-guy bg-cover bg-center">
       <div className="w-full h-full bg-filter">
         <section className="max-w-[1050px] p-[50px] h-full mx-auto flex items-center justify-center flex-col">
-          <div className="w-[760px] mx-auto flex items-center justify-center flex-col gap-[30px]">
+          <div className="max-w-[760px] mx-auto flex items-center justify-center flex-col gap-[30px]">
             <Heading2 color="text-white">Subscribe And Learn About Us</Heading2>
             <Paragraph color="text-white">
               Problems trying to resolve the conflict between the two major
@@ -31,12 +27,7 @@ const Example03: FC = () => {
               </button>
             </section>
             <Heading2 color="text-white">Designing Better Experience</Heading2>
-            <div className="flex items-center gap-[34px]">
-              <TwitterLogo weight="fill" size={30} color="#fff"/>
-              <FacebookLogo weight="fill" size={30} color="#fff" />
-              <InstagramLogo weight="fill" size={30} color="#fff"/>
-              <LinkedinLogo weight="fill" size={30} color="#fff"/>
-            </div>
+            <SocialMedia />
           </div>
         </section>
       </div>
