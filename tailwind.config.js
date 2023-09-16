@@ -15,9 +15,11 @@ export default {
       "white": "#FFF",
       "dark-text-color": "#252B42",
       "danger-color": "#E74040",
+      "secondary":"#F3CD03",
       "second-text-color": "#737373",
       "primary-color": "#23A6F0",
-      "primary-text-color": "#23A6F0"
+      "primary-text-color": "#23A6F0",
+      "disabled-element-text-color":"#8EC2F2"
     },
   },
   plugins: [],
