@@ -2,7 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        "guy": "url('/guy.png')",
+        "mulher": "url('/mulher.png')",
+        "sala": "url('/sala.png')",
+        "filter": "linear-gradient(90deg, #000 0.13%, #000 0.14%, rgba(0, 0, 0, 0.00) 99.56%);",
+
+      }
+    },
     colors: {
       "white": "#FFF",
       "dark-text-color": "#252B42",
