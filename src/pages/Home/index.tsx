@@ -6,8 +6,8 @@ import { Paragraph } from "../../components/Text/Paragraph";
 const Home: FC = () => {
   return (
     <main className="w-[100vw] h-[100vh]">
-      <section className="w-[1050px] h-full mx-auto flex items-center justify-center flex-col gap-[30px]">
-        <div className="w-[600px] mx-auto flex items-center justify-center flex-col gap-[30px]">
+      <section className="max-w-[1050px] p-[50px] h-full mx-auto flex items-center justify-center flex-col gap-[30px]">
+        <div className="max-w-[600px] mx-auto flex items-center justify-center flex-col gap-[30px]">
           <div className="p-[20px] rounded-full bg-danger-color">
             <CreditCard size={32} weight="bold" color="#FFF" />
           </div>
