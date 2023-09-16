@@ -5,9 +5,9 @@ import { Heading2 } from "../../components/Text/Heading";
 
 const Example05: FC = () => {
   return (
-    <main className="w-[100vw] h-[100vh] bg-mulher bg-cover bg-center">
-      <div className="w-full h-full bg-filter flex items-center justify-center">
-        <section className="max-w-[1200px] p-[48px] bg-white grid grid-cols-2">
+    <main className="w-[100vw] h-[100vh] bg-mulher bg-no-repeat bg-cover bg-center">
+      <div className="min-w-full min-h-full bg-filter flex items-center justify-center">
+        <section className="max-w-[1200px] m-[28px] p-[48px] bg-white grid md:grid-cols-2">
           <div className="px-[35px] py-[30px] flex flex-col gap-[20px]">
             <div className="flex items-center w-full justify-center">
               <Star weight="fill" size={22} className="text-secondary" />
